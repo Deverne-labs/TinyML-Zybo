@@ -1,0 +1,46 @@
+timestamp=[2022-09-13 14:43:48], mode=WORKBENCH_START, duration=0:00:09.517, duration_ms=9517, data={}
+timestamp=[2022-09-13 14:43:49], mode=WORKBENCH_UI_INIT, duration=0:00:00.822, duration_ms=822, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2022-09-13 14:43:55], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:05.284, duration_ms=5284, data={}
+timestamp=[2022-09-13 14:45:06], mode=WORKBENCH_START, duration=0:00:05.842, duration_ms=5842, data={}
+timestamp=[2022-09-13 14:45:07], mode=WORKBENCH_UI_INIT, duration=0:00:00.660, duration_ms=660, data={editors_count=0, platform_editors_count=0, projects_count=1, platform_projects_count=0, active_platform_editor=false, projects=RemoteSystemsTempFiles}
+timestamp=[2022-09-13 14:45:10], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:03.082, duration_ms=3082, data={}
+timestamp=[2022-09-13 14:53:21], mode=PLATFORM_CREATION, duration=0:00:09.744, duration_ms=9744, data={platform_source=dsa, os=standalone, processor=ps7_cortexa9, platform=null}
+timestamp=[2022-09-13 14:53:53], mode=APP_CREATION, duration=0:00:06.775, duration_ms=6775, data={name=tensil_ref_app, project_type=sdk, os=standalone, processor=cortex-a9, runtime=C/C++, platform=zybo_base_design, application_type=application}
+timestamp=[2022-09-13 14:55:01], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.031, duration_ms=31, data={}
+timestamp=[2022-09-13 14:55:01], mode=WORKBENCH_START, duration=0:00:09.376, duration_ms=9376, data={}
+timestamp=[2022-09-13 14:55:03], mode=WORKBENCH_UI_INIT, duration=0:00:01.332, duration_ms=1332, data={editors_count=3, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,tensil_ref_app,tensil_ref_app_system,zybo_base_design}
+timestamp=[2022-09-13 14:56:09], mode=PLATFORM_GENERATION, duration=0:00:15.455, duration_ms=15455, data={name=zybo_base_design}
+timestamp=[2022-09-13 14:56:11], mode=BUILD, duration=0:00:00.288, duration_ms=288, data={name=tensil_ref_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-13 14:56:18], mode=BUILD, duration=0:00:06.318, duration_ms=6318, data={name=tensil_ref_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-13 14:57:33], mode=PLATFORM_GENERATION, duration=0:00:08.074, duration_ms=8074, data={name=zybo_base_design}
+timestamp=[2022-09-13 14:57:33], mode=BUILD, duration=0:00:00.109, duration_ms=109, data={name=tensil_ref_app, configuration=Debug, clean_build=true}
+timestamp=[2022-09-13 14:57:37], mode=BUILD, duration=0:00:01.952, duration_ms=1952, data={name=tensil_ref_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-13 14:57:43], mode=BUILD, duration=0:00:05.327, duration_ms=5327, data={name=tensil_ref_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-13 14:58:35], mode=APP_CREATION, duration=0:00:05.845, duration_ms=5845, data={name=tensil_ref_app, project_type=sdk, os=standalone, processor=cortex-a9, runtime=C/C++, platform=zybo_base_design, application_type=application}
+timestamp=[2022-09-13 14:58:53], mode=BUILD, duration=0:00:01.825, duration_ms=1825, data={name=tensil_ref_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-13 14:58:58], mode=BUILD, duration=0:00:05.401, duration_ms=5401, data={name=tensil_ref_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-13 15:00:09], mode=BUILD, duration=0:00:00.095, duration_ms=95, data={name=tensil_ref_app, configuration=Debug, clean_build=true}
+timestamp=[2022-09-13 15:00:10], mode=BUILD, duration=0:00:01.573, duration_ms=1573, data={name=tensil_ref_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-13 15:00:16], mode=BUILD, duration=0:00:05.322, duration_ms=5322, data={name=tensil_ref_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-13 15:01:26], mode=APP_CREATION, duration=0:00:05.476, duration_ms=5476, data={name=tensil_ref_application, project_type=sdk, os=standalone, processor=cortex-a9, runtime=C/C++, platform=zybo_base_design, application_type=application}
+timestamp=[2022-09-13 15:01:50], mode=BUILD, duration=0:00:01.617, duration_ms=1617, data={name=tensil_ref_application, configuration=Debug, clean_build=false}
+timestamp=[2022-09-13 15:01:56], mode=BUILD, duration=0:00:05.417, duration_ms=5417, data={name=tensil_ref_application_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-13 15:02:19], mode=BUILD, duration=0:00:00.087, duration_ms=87, data={name=tensil_ref_application, configuration=Debug, clean_build=true}
+timestamp=[2022-09-13 15:02:21], mode=BUILD, duration=0:00:01.576, duration_ms=1576, data={name=tensil_ref_application, configuration=Debug, clean_build=false}
+timestamp=[2022-09-13 15:02:27], mode=BUILD, duration=0:00:05.393, duration_ms=5393, data={name=tensil_ref_application_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-13 15:02:34], mode=PLATFORM_GENERATION, duration=0:00:05.451, duration_ms=5451, data={name=zybo_base_design}
+timestamp=[2022-09-13 15:02:34], mode=BUILD, duration=0:00:00.101, duration_ms=101, data={name=tensil_ref_application, configuration=Debug, clean_build=true}
+timestamp=[2022-09-13 15:02:34], mode=BUILD, duration=0:00:00.093, duration_ms=93, data={name=tensil_ref_application_system, configuration=Debug, clean_build=true}
+timestamp=[2022-09-13 15:02:46], mode=PLATFORM_GENERATION, duration=0:00:11.836, duration_ms=11836, data={name=zybo_base_design}
+timestamp=[2022-09-13 15:02:50], mode=BUILD, duration=0:00:01.969, duration_ms=1969, data={name=tensil_ref_application, configuration=Debug, clean_build=false}
+timestamp=[2022-09-13 15:02:55], mode=BUILD, duration=0:00:05.295, duration_ms=5295, data={name=tensil_ref_application_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-13 15:09:13], mode=WORKBENCH_START, duration=0:00:06.403, duration_ms=6403, data={}
+timestamp=[2022-09-13 15:09:14], mode=WORKBENCH_UI_INIT, duration=0:00:00.813, duration_ms=813, data={editors_count=4, platform_editors_count=0, projects_count=4, platform_projects_count=0, active_platform_editor=false, projects=RemoteSystemsTempFiles,tensil_ref_application,tensil_ref_application_system,zybo_base_design}
+timestamp=[2022-09-13 15:09:16], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:03.113, duration_ms=3113, data={}
+timestamp=[2022-09-13 15:09:57], mode=PLATFORM_GENERATION, duration=0:00:09.464, duration_ms=9464, data={name=zybo_hw_system}
+timestamp=[2022-09-13 15:09:57], mode=BUILD, duration=0:00:00.107, duration_ms=107, data={name=tensil_ref_app, configuration=Debug, clean_build=true}
+timestamp=[2022-09-13 15:10:01], mode=BUILD, duration=0:00:02.186, duration_ms=2186, data={name=tensil_ref_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-13 15:10:01], mode=BUILD, duration=0:00:00.117, duration_ms=117, data={name=tensil_ref_app_system, configuration=Debug, clean_build=true}
+timestamp=[2022-09-13 15:10:08], mode=BUILD, duration=0:00:06.834, duration_ms=6834, data={name=tensil_ref_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-13 15:26:00], mode=BUILD, duration=0:00:00.386, duration_ms=386, data={name=tensil_ref_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-13 15:26:07], mode=BUILD, duration=0:00:06.678, duration_ms=6678, data={name=tensil_ref_app_system, configuration=Debug, clean_build=false}

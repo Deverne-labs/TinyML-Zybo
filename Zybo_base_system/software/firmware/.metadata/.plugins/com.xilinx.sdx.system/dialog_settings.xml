@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="true"/>
+	<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="true"/>
+	<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+	<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+	<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+		<item value="/home/lbo/Projects/DVR-006-001/Zybo_base_system/software/firmware"/>
+	</list>
+	<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+		<item value="/home/lbo/Projects/DVR-006-001/Zybo_base_system/software/ressources/firmware.zip"/>
+	</list>
+</section>

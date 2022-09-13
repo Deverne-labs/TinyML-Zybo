@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="sdx.custom.platform.repository.locations" value="/home/lbo/Projects/DVR-006-001/Zybo_base_system/software/firmware/zybo_base_design/export/zybo_base_design;/home/lbo/Projects/DVR-006-001/Zybo_base_system/software/firmware/zybo_hw_system/export/zybo_hw_system"/>
+</section>
