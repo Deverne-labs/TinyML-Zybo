@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Sep  6 10:56:42 2022
+# Process ID: 19761
+# Current directory: /home/lbo/Projects/DVR-006-001/Base_system/HW/Zybo-Z7-20-pcam-5c.runs/impl_1
+# Command line: vivado -log system_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source system_wrapper.tcl -notrace
+# Log file: /home/lbo/Projects/DVR-006-001/Base_system/HW/Zybo-Z7-20-pcam-5c.runs/impl_1/system_wrapper.vdi
+# Journal file: /home/lbo/Projects/DVR-006-001/Base_system/HW/Zybo-Z7-20-pcam-5c.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source system_wrapper.tcl -notrace

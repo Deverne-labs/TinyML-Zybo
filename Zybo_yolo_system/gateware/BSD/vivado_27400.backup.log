@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Sep 13 13:57:11 2022
+# Process ID: 27400
+# Current directory: /home/lbo/Projects/DVR-006-001/Zybo_base_system/gateware
+# Command line: vivado Zybo-Z7-20-pcam-5c.xpr
+# Log file: /home/lbo/Projects/DVR-006-001/Zybo_base_system/gateware/vivado.log
+# Journal file: /home/lbo/Projects/DVR-006-001/Zybo_base_system/gateware/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project Zybo-Z7-20-pcam-5c.xpr
+INFO: [Project 1-313] Project file moved from '/home/lbo/Projects/DVR-006-001/Base_system/HW' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/lbo/Projects/DVR-006-001/Zybo_base_system/gateware/Zybo-Z7-20-pcam-5c.ipdefs/repo_0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/lbo/Projects/DVR-006-001/tensil_DPU'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 7332.473 ; gain = 70.836 ; free physical = 2502 ; free virtual = 8285

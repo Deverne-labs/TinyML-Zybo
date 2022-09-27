@@ -1,0 +1,25 @@
+srcscan starts
+=============== Using vdb files for VHDL std libs ===========
+INFO: The vhdl library search path for library "std" is now "/tools/Xilinx/Vivado/2020.2/data/precomp_hsv/vhdl/std" (VHDL-1505)
+INFO: The vhdl library search path for library "synopsys" is now "/tools/Xilinx/Vivado/2020.2/data/precomp_hsv/vhdl/synopsys" (VHDL-1505)
+INFO: The vhdl library search path for library "ieee" is now "/tools/Xilinx/Vivado/2020.2/data/precomp_hsv/vhdl/ieee" (VHDL-1505)
+INFO: The vhdl library search path for library "unimacro" is now "/tools/Xilinx/Vivado/2020.2/data/precomp_hsv/vhdl/unimacro" (VHDL-1505)
+INFO: The vhdl library search path for library "unisim" is now "/tools/Xilinx/Vivado/2020.2/data/precomp_hsv/vhdl/unisim" (VHDL-1505)
+INFO: The vhdl library search path for library "vl" is now "/tools/Xilinx/Vivado/2020.2/data/precomp_hsv/vhdl/vl" (VHDL-1505)
+INFO: The vhdl library search path for library "xpm" is now "/tools/Xilinx/Vivado/2020.2/data/precomp_hsv/vhdl/xpm" (VHDL-1505)
+-- Analyzing VHDL file "/home/lbo/Projects/DVR-006-001/Zybo_base_system/gateware/Zybo-Z7-20-pcam-5c.srcs/sources_1/imports/hdl/SyncAsync.vhd" into library xil_defaultlib (VHDL-9003)
+INFO: analyzing entity 'SyncAsync' (VHDL-1012)
+INFO: analyzing architecture 'Behavioral' of entity 'syncasync' (VHDL-9006)
+-- Analyzing VHDL file "/home/lbo/Projects/DVR-006-001/Zybo_base_system/gateware/Zybo-Z7-20-pcam-5c.srcs/sources_1/bd/system/hdl/system_wrapper.vhd" into library xil_defaultlib (VHDL-9003)
+INFO: analyzing entity 'system_wrapper' (VHDL-1012)
+INFO: analyzing architecture 'STRUCTURE' of entity 'system_wrapper' (VHDL-9006)
+Listing tops:
+VHDLTop: library:xil_defaultlib entity:syncasync arch:
+VHDLTop: library:xil_defaultlib entity:syncasync arch:
+VHDLTop: library:xil_defaultlib entity:system_wrapper arch:
+VHDLTop: library:xil_defaultlib entity:system_wrapper arch:
+END of tops
+/home/lbo/Projects/DVR-006-001/Zybo_base_system/gateware/Zybo-Z7-20-pcam-5c.srcs/sources_1/imports/hdl/SyncAsync.vhd(54): INFO: executing 'SyncAsync_default(Behavioral)' (VHDL-1067)
+/home/lbo/Projects/DVR-006-001/Zybo_base_system/gateware/Zybo-Z7-20-pcam-5c.srcs/sources_1/bd/system/hdl/system_wrapper.vhd(14): INFO: executing 'system_wrapper_default(STRUCTURE)' (VHDL-1067)
+/home/lbo/Projects/DVR-006-001/Zybo_base_system/gateware/Zybo-Z7-20-pcam-5c.srcs/sources_1/bd/system/hdl/system_wrapper.vhd(67): WARNING: 'system' remains a black-box since it has no binding entity (VHDL-1250)
+srcscan exits with return value 0

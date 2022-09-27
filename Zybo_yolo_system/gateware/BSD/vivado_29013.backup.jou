@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Sep 13 14:08:48 2022
+# Process ID: 29013
+# Current directory: /home/lbo/Projects/DVR-006-001/Zybo_base_system_reference/gateware/BSD
+# Command line: vivado Zybo-Z7-20-pcam-5c.xpr
+# Log file: /home/lbo/Projects/DVR-006-001/Zybo_base_system_reference/gateware/BSD/vivado.log
+# Journal file: /home/lbo/Projects/DVR-006-001/Zybo_base_system_reference/gateware/BSD/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project Zybo-Z7-20-pcam-5c.xpr
+update_compile_order -fileset sources_1
+write_project_tcl -no_copy_sources -use_bd_files {/home/lbo/Projects/DVR-006-001/Zybo_base_system/gateware/BSD/gen_Zybo_base_design.tcl}

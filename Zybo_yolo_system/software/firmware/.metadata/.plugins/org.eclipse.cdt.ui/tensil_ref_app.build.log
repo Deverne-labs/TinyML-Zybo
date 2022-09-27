@@ -1,0 +1,101 @@
+14:39:22 **** Incremental Build of configuration Debug for project tensil_ref_app ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+ 
+make --no-print-directory main-build
+Building file: ../src/tensil/architecture.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tensil/architecture.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/lbo/Projects/DVR-006-001/Zybo_yolo_system/software/firmware/zybo_hw_system/export/zybo_hw_system/sw/zybo_hw_system/standalone_domain/bspinclude/include -MMD -MP -MF"src/tensil/architecture.d" -MT"src/tensil/architecture.o" -o "src/tensil/architecture.o" "../src/tensil/architecture.c"
+Finished building: ../src/tensil/architecture.c
+ 
+Building file: ../src/tensil/dram.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tensil/dram.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/lbo/Projects/DVR-006-001/Zybo_yolo_system/software/firmware/zybo_hw_system/export/zybo_hw_system/sw/zybo_hw_system/standalone_domain/bspinclude/include -MMD -MP -MF"src/tensil/dram.d" -MT"src/tensil/dram.o" -o "src/tensil/dram.o" "../src/tensil/dram.c"
+Finished building: ../src/tensil/dram.c
+ 
+Building file: ../src/tensil/driver.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tensil/driver.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/lbo/Projects/DVR-006-001/Zybo_yolo_system/software/firmware/zybo_hw_system/export/zybo_hw_system/sw/zybo_hw_system/standalone_domain/bspinclude/include -MMD -MP -MF"src/tensil/driver.d" -MT"src/tensil/driver.o" -o "src/tensil/driver.o" "../src/tensil/driver.c"
+Finished building: ../src/tensil/driver.c
+ 
+Building file: ../src/tensil/driver_tests.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tensil/driver_tests.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/lbo/Projects/DVR-006-001/Zybo_yolo_system/software/firmware/zybo_hw_system/export/zybo_hw_system/sw/zybo_hw_system/standalone_domain/bspinclude/include -MMD -MP -MF"src/tensil/driver_tests.d" -MT"src/tensil/driver_tests.o" -o "src/tensil/driver_tests.o" "../src/tensil/driver_tests.c"
+Finished building: ../src/tensil/driver_tests.c
+ 
+Building file: ../src/tensil/error.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tensil/error.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/lbo/Projects/DVR-006-001/Zybo_yolo_system/software/firmware/zybo_hw_system/export/zybo_hw_system/sw/zybo_hw_system/standalone_domain/bspinclude/include -MMD -MP -MF"src/tensil/error.d" -MT"src/tensil/error.o" -o "src/tensil/error.o" "../src/tensil/error.c"
+Finished building: ../src/tensil/error.c
+ 
+Building file: ../src/tensil/instruction.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tensil/instruction.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/lbo/Projects/DVR-006-001/Zybo_yolo_system/software/firmware/zybo_hw_system/export/zybo_hw_system/sw/zybo_hw_system/standalone_domain/bspinclude/include -MMD -MP -MF"src/tensil/instruction.d" -MT"src/tensil/instruction.o" -o "src/tensil/instruction.o" "../src/tensil/instruction.c"
+Finished building: ../src/tensil/instruction.c
+ 
+Building file: ../src/tensil/instruction_buffer.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tensil/instruction_buffer.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/lbo/Projects/DVR-006-001/Zybo_yolo_system/software/firmware/zybo_hw_system/export/zybo_hw_system/sw/zybo_hw_system/standalone_domain/bspinclude/include -MMD -MP -MF"src/tensil/instruction_buffer.d" -MT"src/tensil/instruction_buffer.o" -o "src/tensil/instruction_buffer.o" "../src/tensil/instruction_buffer.c"
+Finished building: ../src/tensil/instruction_buffer.c
+ 
+Building file: ../src/tensil/model.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tensil/model.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/lbo/Projects/DVR-006-001/Zybo_yolo_system/software/firmware/zybo_hw_system/export/zybo_hw_system/sw/zybo_hw_system/standalone_domain/bspinclude/include -MMD -MP -MF"src/tensil/model.d" -MT"src/tensil/model.o" -o "src/tensil/model.o" "../src/tensil/model.c"
+Finished building: ../src/tensil/model.c
+ 
+Building file: ../src/tensil/tcu.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tensil/tcu.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/lbo/Projects/DVR-006-001/Zybo_yolo_system/software/firmware/zybo_hw_system/export/zybo_hw_system/sw/zybo_hw_system/standalone_domain/bspinclude/include -MMD -MP -MF"src/tensil/tcu.d" -MT"src/tensil/tcu.o" -o "src/tensil/tcu.o" "../src/tensil/tcu.c"
+Finished building: ../src/tensil/tcu.c
+ 
+Building file: ../src/console.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/console.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/lbo/Projects/DVR-006-001/Zybo_yolo_system/software/firmware/zybo_hw_system/export/zybo_hw_system/sw/zybo_hw_system/standalone_domain/bspinclude/include -MMD -MP -MF"src/console.d" -MT"src/console.o" -o "src/console.o" "../src/console.c"
+Finished building: ../src/console.c
+ 
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/lbo/Projects/DVR-006-001/Zybo_yolo_system/software/firmware/zybo_hw_system/export/zybo_hw_system/sw/zybo_hw_system/standalone_domain/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+In file included from ../src/stopwatch.h:8,
+                 from ../src/main.c:16:
+/home/lbo/Projects/DVR-006-001/Zybo_yolo_system/software/firmware/zybo_hw_system/export/zybo_hw_system/sw/zybo_hw_system/standalone_domain/bspinclude/include/xtime_l.h:65:9: note: #pragma message: For the sleep routines, Global timer is being used
+   65 | #pragma message ("For the sleep routines, Global timer is being used")
+      |         ^~~~~~~
+../src/main.c: In function 'test_resnet20v2_on_cifar':
+../src/main.c:207:40: warning: format '%lu' expects argument of type 'long unsigned int', but argument 2 has type 'size_t' {aka 'unsigned int'} [-Wformat=]
+  207 |         printf("ResNet20V2 on CIFAR: %lu images %.2f accuracy at %.2f fps\n",
+      |                                      ~~^
+      |                                        |
+      |                                        long unsigned int
+      |                                      %u
+  208 |                total_count, (1.0 - (float)misclass_count / (float)total_count),
+      |                ~~~~~~~~~~~              
+      |                |
+      |                size_t {aka unsigned int}
+Finished building: ../src/main.c
+ 
+Building file: ../src/stopwatch.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/stopwatch.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/lbo/Projects/DVR-006-001/Zybo_yolo_system/software/firmware/zybo_hw_system/export/zybo_hw_system/sw/zybo_hw_system/standalone_domain/bspinclude/include -MMD -MP -MF"src/stopwatch.d" -MT"src/stopwatch.o" -o "src/stopwatch.o" "../src/stopwatch.c"
+In file included from ../src/stopwatch.h:8,
+                 from ../src/stopwatch.c:4:
+/home/lbo/Projects/DVR-006-001/Zybo_yolo_system/software/firmware/zybo_hw_system/export/zybo_hw_system/sw/zybo_hw_system/standalone_domain/bspinclude/include/xtime_l.h:65:9: note: #pragma message: For the sleep routines, Global timer is being used
+   65 | #pragma message ("For the sleep routines, Global timer is being used")
+      |         ^~~~~~~
+Finished building: ../src/stopwatch.c
+ 
+Building target: tensil_ref_app.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L/home/lbo/Projects/DVR-006-001/Zybo_yolo_system/software/firmware/zybo_hw_system/export/zybo_hw_system/sw/zybo_hw_system/standalone_domain/bsplib/lib -o "tensil_ref_app.elf"  ./src/tensil/architecture.o ./src/tensil/cJSON.o ./src/tensil/config.o ./src/tensil/dram.o ./src/tensil/driver.o ./src/tensil/driver_tests.o ./src/tensil/error.o ./src/tensil/instruction.o ./src/tensil/instruction_buffer.o ./src/tensil/model.o ./src/tensil/sample_buffer.o ./src/tensil/tcu.o  ./src/console.o ./src/main.o ./src/stopwatch.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group
+Finished building target: tensil_ref_app.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size tensil_ref_app.elf  |tee "tensil_ref_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 238752	   2720	  26464	 267936	  416a0	tensil_ref_app.elf
+Finished building: tensil_ref_app.elf.size
+ 
+
+14:39:23 Build Finished (took 1s.260ms)
+

@@ -1,0 +1,318 @@
+timestamp=[2022-09-13 15:03:45], mode=WORKBENCH_START, duration=0:00:06.203, duration_ms=6203, data={}
+timestamp=[2022-09-13 15:03:45], mode=WORKBENCH_UI_INIT, duration=0:00:00.342, duration_ms=342, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2022-09-13 15:03:48], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:03.066, duration_ms=3066, data={}
+timestamp=[2022-09-13 15:04:53], mode=WORKBENCH_START, duration=0:00:05.863, duration_ms=5863, data={}
+timestamp=[2022-09-13 15:04:54], mode=WORKBENCH_UI_INIT, duration=0:00:00.683, duration_ms=683, data={editors_count=0, platform_editors_count=0, projects_count=1, platform_projects_count=0, active_platform_editor=false, projects=RemoteSystemsTempFiles}
+timestamp=[2022-09-13 15:04:57], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:03.082, duration_ms=3082, data={}
+timestamp=[2022-09-13 15:05:48], mode=PLATFORM_GENERATION, duration=0:00:10.752, duration_ms=10752, data={name=zybo_hw_system}
+timestamp=[2022-09-13 15:05:48], mode=BUILD, duration=0:00:00.115, duration_ms=115, data={name=tensil_ref_app, configuration=Debug, clean_build=true}
+timestamp=[2022-09-13 15:05:52], mode=BUILD, duration=0:00:02.052, duration_ms=2052, data={name=tensil_ref_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-13 15:05:52], mode=BUILD, duration=0:00:00.120, duration_ms=120, data={name=tensil_ref_app_system, configuration=Debug, clean_build=true}
+timestamp=[2022-09-13 15:05:59], mode=BUILD, duration=0:00:06.935, duration_ms=6935, data={name=tensil_ref_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-13 15:08:53], mode=WORKBENCH_START, duration=0:00:08.989, duration_ms=8989, data={}
+timestamp=[2022-09-13 15:08:54], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.052, duration_ms=52, data={}
+timestamp=[2022-09-13 15:08:54], mode=WORKBENCH_UI_INIT, duration=0:00:00.764, duration_ms=764, data={editors_count=0, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,tensil_ref_app,tensil_ref_app_system,zybo_hw_system}
+timestamp=[2022-09-20 10:07:02], mode=WORKBENCH_START, duration=0:00:14.072, duration_ms=14072, data={}
+timestamp=[2022-09-20 10:07:02], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.075, duration_ms=75, data={}
+timestamp=[2022-09-20 10:07:02], mode=WORKBENCH_UI_INIT, duration=0:00:00.885, duration_ms=885, data={editors_count=0, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,tensil_ref_app,tensil_ref_app_system,zybo_hw_system}
+timestamp=[2022-09-20 10:07:23], mode=PLATFORM_GENERATION, duration=0:00:10.130, duration_ms=10130, data={name=zybo_hw_system}
+timestamp=[2022-09-20 10:07:23], mode=BUILD, duration=0:00:00.126, duration_ms=126, data={name=tensil_ref_app, configuration=Debug, clean_build=true}
+timestamp=[2022-09-20 10:07:24], mode=BUILD, duration=0:00:00.124, duration_ms=124, data={name=tensil_ref_app_system, configuration=Debug, clean_build=true}
+timestamp=[2022-09-20 10:07:38], mode=PLATFORM_GENERATION, duration=0:00:14.234, duration_ms=14234, data={name=zybo_hw_system}
+timestamp=[2022-09-20 10:07:43], mode=BUILD, duration=0:00:02.844, duration_ms=2844, data={name=tensil_ref_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-20 10:07:50], mode=BUILD, duration=0:00:06.807, duration_ms=6807, data={name=tensil_ref_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-20 10:07:54], mode=BUILD, duration=0:00:00.086, duration_ms=86, data={name=tensil_ref_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-20 10:08:01], mode=BUILD, duration=0:00:06.935, duration_ms=6935, data={name=tensil_ref_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-20 10:08:07], mode=PLATFORM_GENERATION, duration=0:00:05.593, duration_ms=5593, data={name=zybo_hw_system}
+timestamp=[2022-09-20 10:08:07], mode=BUILD, duration=0:00:00.101, duration_ms=101, data={name=tensil_ref_app, configuration=Debug, clean_build=true}
+timestamp=[2022-09-20 10:08:07], mode=BUILD, duration=0:00:00.086, duration_ms=86, data={name=tensil_ref_app_system, configuration=Debug, clean_build=true}
+timestamp=[2022-09-20 10:08:14], mode=PLATFORM_GENERATION, duration=0:00:06.966, duration_ms=6966, data={name=zybo_hw_system}
+timestamp=[2022-09-20 11:24:58], mode=WORKBENCH_START, duration=0:00:09.761, duration_ms=9761, data={}
+timestamp=[2022-09-20 11:24:59], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.046, duration_ms=46, data={}
+timestamp=[2022-09-20 11:24:59], mode=WORKBENCH_UI_INIT, duration=0:00:00.940, duration_ms=940, data={editors_count=0, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,tensil_ref_app,tensil_ref_app_system,zybo_hw_system}
+timestamp=[2022-09-22 14:03:47], mode=WORKBENCH_START, duration=0:00:12.294, duration_ms=12294, data={}
+timestamp=[2022-09-22 14:03:48], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.051, duration_ms=51, data={}
+timestamp=[2022-09-22 14:03:49], mode=WORKBENCH_UI_INIT, duration=0:00:01.380, duration_ms=1380, data={editors_count=0, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,tensil_ref_app,tensil_ref_app_system,zybo_hw_system}
+timestamp=[2022-09-22 14:04:35], mode=PLATFORM_GENERATION, duration=0:00:09.642, duration_ms=9642, data={name=zybo_hw_system}
+timestamp=[2022-09-22 14:29:49], mode=APP_CREATION, duration=0:00:06.436, duration_ms=6436, data={name=tensil_yolo_app, project_type=sdk, os=standalone, processor=cortex-a9, runtime=C/C++, platform=zybo_hw_system, application_type=application}
+timestamp=[2022-09-22 14:35:56], mode=PLATFORM_GENERATION, duration=0:00:05.348, duration_ms=5348, data={name=zybo_hw_system}
+timestamp=[2022-09-22 14:35:58], mode=BUILD, duration=0:00:00.637, duration_ms=637, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 14:36:04], mode=BUILD, duration=0:00:05.552, duration_ms=5552, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 14:36:23], mode=BUILD, duration=0:00:00.090, duration_ms=90, data={name=tensil_yolo_app, configuration=Debug, clean_build=true}
+timestamp=[2022-09-22 14:36:24], mode=BUILD, duration=0:00:01.262, duration_ms=1262, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 14:36:30], mode=BUILD, duration=0:00:05.522, duration_ms=5522, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 14:36:43], mode=PLATFORM_GENERATION, duration=0:00:05.488, duration_ms=5488, data={name=zybo_hw_system}
+timestamp=[2022-09-22 14:36:43], mode=BUILD, duration=0:00:00.088, duration_ms=88, data={name=tensil_yolo_app, configuration=Debug, clean_build=true}
+timestamp=[2022-09-22 14:37:06], mode=PLATFORM_GENERATION, duration=0:00:12.661, duration_ms=12661, data={name=zybo_hw_system}
+timestamp=[2022-09-22 14:37:09], mode=BUILD, duration=0:00:01.663, duration_ms=1663, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 14:37:15], mode=BUILD, duration=0:00:05.647, duration_ms=5647, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 14:37:27], mode=PLATFORM_GENERATION, duration=0:00:05.431, duration_ms=5431, data={name=zybo_hw_system}
+timestamp=[2022-09-22 14:37:27], mode=BUILD, duration=0:00:00.089, duration_ms=89, data={name=tensil_yolo_app, configuration=Debug, clean_build=true}
+timestamp=[2022-09-22 14:37:49], mode=PLATFORM_GENERATION, duration=0:00:12.220, duration_ms=12220, data={name=zybo_hw_system}
+timestamp=[2022-09-22 14:37:52], mode=BUILD, duration=0:00:01.832, duration_ms=1832, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 14:37:58], mode=BUILD, duration=0:00:05.536, duration_ms=5536, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 14:38:52], mode=APP_CREATION, duration=0:00:06.266, duration_ms=6266, data={name=tensil_yolo_app, project_type=sdk, os=standalone, processor=cortex-a9, runtime=C/C++, platform=zybo_hw_system, application_type=application}
+timestamp=[2022-09-22 14:39:15], mode=BUILD, duration=0:00:05.500, duration_ms=5500, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 14:39:47], mode=BUILD, duration=0:00:01.249, duration_ms=1249, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 14:39:53], mode=BUILD, duration=0:00:05.471, duration_ms=5471, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 14:40:50], mode=APP_CREATION, duration=0:00:06.262, duration_ms=6262, data={name=tensil_yolo_app, project_type=sdk, os=standalone, processor=cortex-a9, runtime=C/C++, platform=zybo_hw_system, application_type=application}
+timestamp=[2022-09-22 14:41:34], mode=BUILD, duration=0:00:01.620, duration_ms=1620, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 14:41:40], mode=BUILD, duration=0:00:05.397, duration_ms=5397, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 14:42:04], mode=BUILD, duration=0:00:01.659, duration_ms=1659, data={name=tensil_ref_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 14:42:11], mode=BUILD, duration=0:00:06.759, duration_ms=6759, data={name=tensil_ref_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 14:46:15], mode=BUILD, duration=0:00:00.085, duration_ms=85, data={name=tensil_yolo_app, configuration=Debug, clean_build=true}
+timestamp=[2022-09-22 14:46:17], mode=BUILD, duration=0:00:01.568, duration_ms=1568, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 14:46:24], mode=BUILD, duration=0:00:06.714, duration_ms=6714, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 14:47:05], mode=APP_CREATION, duration=0:00:06.059, duration_ms=6059, data={name=tensil_yolo_app, project_type=sdk, os=standalone, processor=cortex-a9, runtime=C/C++, platform=zybo_hw_system, application_type=application}
+timestamp=[2022-09-22 14:47:55], mode=BUILD, duration=0:00:01.155, duration_ms=1155, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 14:48:01], mode=BUILD, duration=0:00:05.409, duration_ms=5409, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 14:49:54], mode=BUILD, duration=0:00:00.085, duration_ms=85, data={name=tensil_yolo_app, configuration=Debug, clean_build=true}
+timestamp=[2022-09-22 14:49:55], mode=BUILD, duration=0:00:01.143, duration_ms=1143, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 14:50:01], mode=BUILD, duration=0:00:05.245, duration_ms=5245, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 14:51:31], mode=BUILD, duration=0:00:00.104, duration_ms=104, data={name=tensil_ref_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 14:51:38], mode=BUILD, duration=0:00:06.739, duration_ms=6739, data={name=tensil_ref_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 14:51:38], mode=BUILD, duration=0:00:00.217, duration_ms=217, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 14:51:44], mode=BUILD, duration=0:00:05.208, duration_ms=5208, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 14:51:51], mode=BUILD, duration=0:00:00.851, duration_ms=851, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 14:51:58], mode=BUILD, duration=0:00:06.713, duration_ms=6713, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 14:52:48], mode=BUILD, duration=0:00:00.203, duration_ms=203, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 14:52:55], mode=BUILD, duration=0:00:06.888, duration_ms=6888, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 14:55:00], mode=BUILD, duration=0:00:00.371, duration_ms=371, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 14:55:07], mode=BUILD, duration=0:00:06.686, duration_ms=6686, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 15:20:36], mode=BUILD, duration=0:00:00.095, duration_ms=95, data={name=tensil_yolo_app, configuration=Debug, clean_build=true}
+timestamp=[2022-09-22 15:20:38], mode=BUILD, duration=0:00:01.064, duration_ms=1064, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 15:20:44], mode=BUILD, duration=0:00:05.398, duration_ms=5398, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 15:32:18], mode=BUILD, duration=0:00:00.178, duration_ms=178, data={name=tensil_yolo_app, configuration=Debug, clean_build=true}
+timestamp=[2022-09-22 15:35:27], mode=BUILD, duration=0:03:08.662, duration_ms=188662, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 15:35:34], mode=BUILD, duration=0:00:06.646, duration_ms=6646, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 15:37:39], mode=BUILD, duration=0:00:00.105, duration_ms=105, data={name=tensil_ref_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 15:37:46], mode=BUILD, duration=0:00:06.669, duration_ms=6669, data={name=tensil_ref_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 15:37:49], mode=BUILD, duration=0:00:02.769, duration_ms=2769, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 15:37:56], mode=BUILD, duration=0:00:06.750, duration_ms=6750, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 15:38:30], mode=BUILD, duration=0:00:01.726, duration_ms=1726, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 15:38:37], mode=BUILD, duration=0:00:06.681, duration_ms=6681, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 15:41:01], mode=BUILD, duration=0:00:02.810, duration_ms=2810, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 15:41:08], mode=BUILD, duration=0:00:06.674, duration_ms=6674, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 15:42:11], mode=BUILD, duration=0:00:01.724, duration_ms=1724, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 15:42:17], mode=BUILD, duration=0:00:06.740, duration_ms=6740, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 15:42:47], mode=BUILD, duration=0:00:01.614, duration_ms=1614, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 15:42:54], mode=BUILD, duration=0:00:06.726, duration_ms=6726, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 15:49:09], mode=BUILD, duration=0:00:02.032, duration_ms=2032, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 15:49:16], mode=BUILD, duration=0:00:06.621, duration_ms=6621, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 16:00:45], mode=BUILD, duration=0:00:01.226, duration_ms=1226, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 16:00:52], mode=BUILD, duration=0:00:06.584, duration_ms=6584, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 16:02:29], mode=BUILD, duration=0:00:01.739, duration_ms=1739, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 16:02:36], mode=BUILD, duration=0:00:06.740, duration_ms=6740, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 16:03:04], mode=BUILD, duration=0:00:02.876, duration_ms=2876, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 16:03:10], mode=BUILD, duration=0:00:06.729, duration_ms=6729, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 16:03:52], mode=BUILD, duration=0:00:01.713, duration_ms=1713, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 16:03:59], mode=BUILD, duration=0:00:06.697, duration_ms=6697, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 16:06:21], mode=BUILD, duration=0:00:02.833, duration_ms=2833, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 16:06:28], mode=BUILD, duration=0:00:06.659, duration_ms=6659, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 16:08:20], mode=BUILD, duration=0:00:02.999, duration_ms=2999, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 16:08:27], mode=BUILD, duration=0:00:06.785, duration_ms=6785, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 16:44:01], mode=BUILD, duration=0:00:03.188, duration_ms=3188, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 16:44:08], mode=BUILD, duration=0:00:06.937, duration_ms=6937, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 16:44:50], mode=BUILD, duration=0:00:02.940, duration_ms=2940, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 16:44:57], mode=BUILD, duration=0:00:06.731, duration_ms=6731, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 16:45:48], mode=BUILD, duration=0:00:03.052, duration_ms=3052, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 16:45:55], mode=BUILD, duration=0:00:06.837, duration_ms=6837, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 16:49:26], mode=BUILD, duration=0:00:02.837, duration_ms=2837, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 16:49:33], mode=BUILD, duration=0:00:06.817, duration_ms=6817, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 16:54:35], mode=BUILD, duration=0:00:03.142, duration_ms=3142, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 16:54:42], mode=BUILD, duration=0:00:06.913, duration_ms=6913, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 16:55:44], mode=BUILD, duration=0:00:03.031, duration_ms=3031, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 16:55:51], mode=BUILD, duration=0:00:06.890, duration_ms=6890, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 17:20:30], mode=BUILD, duration=0:00:02.835, duration_ms=2835, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 17:20:37], mode=BUILD, duration=0:00:06.985, duration_ms=6985, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 17:25:12], mode=BUILD, duration=0:00:02.675, duration_ms=2675, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 17:25:19], mode=BUILD, duration=0:00:06.920, duration_ms=6920, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 17:58:17], mode=WORKBENCH_START, duration=0:00:11.377, duration_ms=11377, data={}
+timestamp=[2022-09-22 17:58:18], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.069, duration_ms=69, data={}
+timestamp=[2022-09-22 17:58:19], mode=WORKBENCH_UI_INIT, duration=0:00:02.140, duration_ms=2140, data={editors_count=5, platform_editors_count=1, projects_count=6, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,tensil_ref_app,tensil_ref_app_system,tensil_yolo_app,tensil_yolo_app_system,zybo_hw_system}
+timestamp=[2022-09-22 17:59:18], mode=PLATFORM_GENERATION, duration=0:00:09.442, duration_ms=9442, data={name=zybo_hw_system}
+timestamp=[2022-09-22 17:59:27], mode=BUILD, duration=0:00:06.790, duration_ms=6790, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 17:59:33], mode=BUILD, duration=0:00:06.475, duration_ms=6475, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 18:08:35], mode=BUILD, duration=0:00:01.265, duration_ms=1265, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 18:08:42], mode=BUILD, duration=0:00:06.676, duration_ms=6676, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 18:14:15], mode=BUILD, duration=0:00:01.096, duration_ms=1096, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 18:14:22], mode=BUILD, duration=0:00:06.791, duration_ms=6791, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 18:34:10], mode=BUILD, duration=0:00:02.515, duration_ms=2515, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-22 18:34:16], mode=BUILD, duration=0:00:06.553, duration_ms=6553, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 10:25:53], mode=WORKBENCH_START, duration=0:00:14.532, duration_ms=14532, data={}
+timestamp=[2022-09-23 10:25:54], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.067, duration_ms=67, data={}
+timestamp=[2022-09-23 10:25:55], mode=WORKBENCH_UI_INIT, duration=0:00:01.358, duration_ms=1358, data={editors_count=6, platform_editors_count=1, projects_count=6, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,tensil_ref_app,tensil_ref_app_system,tensil_yolo_app,tensil_yolo_app_system,zybo_hw_system}
+timestamp=[2022-09-23 10:36:40], mode=BUILD, duration=0:00:02.372, duration_ms=2372, data={name=tensil_ref_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 10:36:49], mode=BUILD, duration=0:00:08.838, duration_ms=8838, data={name=tensil_ref_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 10:36:52], mode=BUILD, duration=0:00:01.855, duration_ms=1855, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 10:36:59], mode=BUILD, duration=0:00:06.666, duration_ms=6666, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 10:39:58], mode=BUILD, duration=0:00:03.751, duration_ms=3751, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 10:40:05], mode=BUILD, duration=0:00:06.650, duration_ms=6650, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 10:48:39], mode=BUILD, duration=0:00:00.119, duration_ms=119, data={name=tensil_ref_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 10:48:46], mode=BUILD, duration=0:00:06.754, duration_ms=6754, data={name=tensil_ref_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 10:48:50], mode=BUILD, duration=0:00:02.741, duration_ms=2741, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 10:48:56], mode=BUILD, duration=0:00:06.543, duration_ms=6543, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 10:54:19], mode=BUILD, duration=0:00:01.264, duration_ms=1264, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 10:54:26], mode=BUILD, duration=0:00:06.657, duration_ms=6657, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 10:59:25], mode=BUILD, duration=0:00:00.277, duration_ms=277, data={name=tensil_ref_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 10:59:32], mode=BUILD, duration=0:00:06.531, duration_ms=6531, data={name=tensil_ref_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 11:26:10], mode=BUILD, duration=0:00:02.886, duration_ms=2886, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 11:26:17], mode=BUILD, duration=0:00:06.525, duration_ms=6525, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 11:27:48], mode=BUILD, duration=0:00:02.785, duration_ms=2785, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 11:27:54], mode=BUILD, duration=0:00:06.627, duration_ms=6627, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 11:30:53], mode=PLATFORM_GENERATION, duration=0:00:05.249, duration_ms=5249, data={name=zybo_hw_system}
+timestamp=[2022-09-23 11:31:00], mode=BUILD, duration=0:00:05.039, duration_ms=5039, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 11:31:07], mode=BUILD, duration=0:00:06.509, duration_ms=6509, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 12:31:42], mode=BUILD, duration=0:00:02.768, duration_ms=2768, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 12:31:49], mode=BUILD, duration=0:00:06.513, duration_ms=6513, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 12:34:27], mode=BUILD, duration=0:00:01.609, duration_ms=1609, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 12:34:34], mode=BUILD, duration=0:00:06.617, duration_ms=6617, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 12:34:42], mode=BUILD, duration=0:00:01.604, duration_ms=1604, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 12:34:49], mode=BUILD, duration=0:00:06.522, duration_ms=6522, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 12:34:59], mode=BUILD, duration=0:00:01.717, duration_ms=1717, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 12:35:05], mode=BUILD, duration=0:00:06.586, duration_ms=6586, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 12:35:40], mode=BUILD, duration=0:00:02.612, duration_ms=2612, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 12:35:47], mode=BUILD, duration=0:00:06.681, duration_ms=6681, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 12:37:12], mode=BUILD, duration=0:00:02.692, duration_ms=2692, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 12:37:19], mode=BUILD, duration=0:00:06.709, duration_ms=6709, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 12:38:45], mode=BUILD, duration=0:00:00.293, duration_ms=293, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 12:38:52], mode=BUILD, duration=0:00:06.681, duration_ms=6681, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 12:42:21], mode=BUILD, duration=0:00:02.800, duration_ms=2800, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 12:42:27], mode=BUILD, duration=0:00:06.496, duration_ms=6496, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 12:45:12], mode=BUILD, duration=0:00:02.594, duration_ms=2594, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 12:45:19], mode=BUILD, duration=0:00:06.530, duration_ms=6530, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 13:08:14], mode=BUILD, duration=0:00:02.954, duration_ms=2954, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 13:08:59], mode=BUILD, duration=0:00:02.727, duration_ms=2727, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 13:09:06], mode=BUILD, duration=0:00:06.546, duration_ms=6546, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 14:24:58], mode=BUILD, duration=0:00:02.645, duration_ms=2645, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 14:25:05], mode=BUILD, duration=0:00:06.690, duration_ms=6690, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 14:37:13], mode=BUILD, duration=0:00:01.613, duration_ms=1613, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 14:37:20], mode=BUILD, duration=0:00:06.527, duration_ms=6527, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 14:38:06], mode=BUILD, duration=0:00:03.005, duration_ms=3005, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 14:38:13], mode=BUILD, duration=0:00:06.591, duration_ms=6591, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 14:39:23], mode=BUILD, duration=0:00:01.270, duration_ms=1270, data={name=tensil_ref_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 14:39:30], mode=BUILD, duration=0:00:06.575, duration_ms=6575, data={name=tensil_ref_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 14:39:32], mode=BUILD, duration=0:00:01.607, duration_ms=1607, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 14:39:39], mode=BUILD, duration=0:00:06.586, duration_ms=6586, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 14:40:02], mode=BUILD, duration=0:00:02.785, duration_ms=2785, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 14:40:09], mode=BUILD, duration=0:00:06.529, duration_ms=6529, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 14:42:38], mode=BUILD, duration=0:00:01.617, duration_ms=1617, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 14:42:45], mode=BUILD, duration=0:00:06.647, duration_ms=6647, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 14:42:55], mode=BUILD, duration=0:00:02.896, duration_ms=2896, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 14:43:01], mode=BUILD, duration=0:00:06.533, duration_ms=6533, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 14:47:01], mode=BUILD, duration=0:00:01.682, duration_ms=1682, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 14:47:08], mode=BUILD, duration=0:00:06.659, duration_ms=6659, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 14:47:27], mode=BUILD, duration=0:00:01.775, duration_ms=1775, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 14:47:34], mode=BUILD, duration=0:00:06.567, duration_ms=6567, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 14:47:41], mode=BUILD, duration=0:00:01.607, duration_ms=1607, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 14:47:47], mode=BUILD, duration=0:00:06.643, duration_ms=6643, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 14:48:33], mode=BUILD, duration=0:00:01.613, duration_ms=1613, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 14:48:40], mode=BUILD, duration=0:00:06.702, duration_ms=6702, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 14:48:54], mode=BUILD, duration=0:00:01.666, duration_ms=1666, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 14:49:01], mode=BUILD, duration=0:00:06.723, duration_ms=6723, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 14:49:18], mode=BUILD, duration=0:00:02.784, duration_ms=2784, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 14:49:25], mode=BUILD, duration=0:00:06.767, duration_ms=6767, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 14:50:59], mode=BUILD, duration=0:00:02.710, duration_ms=2710, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 14:51:06], mode=BUILD, duration=0:00:06.673, duration_ms=6673, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 14:57:47], mode=BUILD, duration=0:00:01.665, duration_ms=1665, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 14:57:55], mode=BUILD, duration=0:00:06.782, duration_ms=6782, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 14:58:19], mode=BUILD, duration=0:00:02.884, duration_ms=2884, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 14:58:26], mode=BUILD, duration=0:00:06.611, duration_ms=6611, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 15:07:47], mode=BUILD, duration=0:00:02.869, duration_ms=2869, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 15:07:54], mode=BUILD, duration=0:00:06.671, duration_ms=6671, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 15:10:46], mode=BUILD, duration=0:00:02.884, duration_ms=2884, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 15:10:53], mode=BUILD, duration=0:00:06.660, duration_ms=6660, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 15:11:24], mode=BUILD, duration=0:00:02.766, duration_ms=2766, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 15:11:31], mode=BUILD, duration=0:00:06.617, duration_ms=6617, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 15:30:50], mode=BUILD, duration=0:00:03.253, duration_ms=3253, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 15:30:57], mode=BUILD, duration=0:00:06.666, duration_ms=6666, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 15:32:17], mode=BUILD, duration=0:00:02.781, duration_ms=2781, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 15:32:24], mode=BUILD, duration=0:00:06.633, duration_ms=6633, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 15:59:27], mode=WORKBENCH_START, duration=0:00:14.201, duration_ms=14201, data={}
+timestamp=[2022-09-23 15:59:27], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.068, duration_ms=68, data={}
+timestamp=[2022-09-23 15:59:29], mode=WORKBENCH_UI_INIT, duration=0:00:01.731, duration_ms=1731, data={editors_count=16, platform_editors_count=4, projects_count=6, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,tensil_ref_app,tensil_ref_app_system,tensil_yolo_app,tensil_yolo_app_system,zybo_hw_system}
+timestamp=[2022-09-23 16:18:55], mode=BUILD, duration=0:00:04.466, duration_ms=4466, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 16:19:05], mode=BUILD, duration=0:00:09.610, duration_ms=9610, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 16:21:33], mode=BUILD, duration=0:00:03.000, duration_ms=3000, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 16:21:40], mode=BUILD, duration=0:00:06.786, duration_ms=6786, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 16:27:32], mode=BUILD, duration=0:00:02.832, duration_ms=2832, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 16:27:39], mode=BUILD, duration=0:00:06.699, duration_ms=6699, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 16:35:36], mode=BUILD, duration=0:00:02.667, duration_ms=2667, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 16:35:43], mode=BUILD, duration=0:00:06.638, duration_ms=6638, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 16:38:04], mode=BUILD, duration=0:00:03.019, duration_ms=3019, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 16:38:11], mode=BUILD, duration=0:00:06.803, duration_ms=6803, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 16:39:57], mode=BUILD, duration=0:00:02.775, duration_ms=2775, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 16:40:04], mode=BUILD, duration=0:00:06.627, duration_ms=6627, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 16:44:39], mode=BUILD, duration=0:00:02.927, duration_ms=2927, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 16:44:46], mode=BUILD, duration=0:00:06.812, duration_ms=6812, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 17:09:22], mode=BUILD, duration=0:00:03.036, duration_ms=3036, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 17:09:29], mode=BUILD, duration=0:00:06.675, duration_ms=6675, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 17:15:00], mode=BUILD, duration=0:00:01.659, duration_ms=1659, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 17:15:06], mode=BUILD, duration=0:00:06.729, duration_ms=6729, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 17:15:33], mode=BUILD, duration=0:00:02.894, duration_ms=2894, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 17:15:40], mode=BUILD, duration=0:00:06.659, duration_ms=6659, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 17:16:10], mode=BUILD, duration=0:00:02.882, duration_ms=2882, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 17:16:17], mode=BUILD, duration=0:00:06.753, duration_ms=6753, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 17:22:41], mode=BUILD, duration=0:00:02.779, duration_ms=2779, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 17:22:48], mode=BUILD, duration=0:00:06.607, duration_ms=6607, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 17:58:10], mode=BUILD, duration=0:00:04.337, duration_ms=4337, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-23 17:58:17], mode=BUILD, duration=0:00:06.578, duration_ms=6578, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 12:03:27], mode=WORKBENCH_START, duration=0:00:20.318, duration_ms=20318, data={}
+timestamp=[2022-09-26 12:03:28], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.115, duration_ms=115, data={}
+timestamp=[2022-09-26 12:03:30], mode=WORKBENCH_UI_INIT, duration=0:00:02.875, duration_ms=2875, data={editors_count=22, platform_editors_count=7, projects_count=6, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,tensil_ref_app,tensil_ref_app_system,tensil_yolo_app,tensil_yolo_app_system,zybo_hw_system}
+timestamp=[2022-09-26 12:05:37], mode=BUILD, duration=0:00:09.111, duration_ms=9111, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 12:05:49], mode=BUILD, duration=0:00:11.239, duration_ms=11239, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 12:09:13], mode=BUILD, duration=0:00:05.286, duration_ms=5286, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 12:09:22], mode=BUILD, duration=0:00:08.255, duration_ms=8255, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 12:57:32], mode=BUILD, duration=0:00:02.350, duration_ms=2350, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 12:57:42], mode=BUILD, duration=0:00:09.304, duration_ms=9304, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 13:38:46], mode=BUILD, duration=0:00:01.280, duration_ms=1280, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 13:38:53], mode=BUILD, duration=0:00:06.607, duration_ms=6607, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 13:40:57], mode=BUILD, duration=0:00:02.636, duration_ms=2636, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 13:41:04], mode=BUILD, duration=0:00:06.649, duration_ms=6649, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 13:42:24], mode=BUILD, duration=0:00:01.224, duration_ms=1224, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 13:42:32], mode=BUILD, duration=0:00:06.784, duration_ms=6784, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 13:43:59], mode=BUILD, duration=0:00:00.296, duration_ms=296, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 13:44:06], mode=BUILD, duration=0:00:06.714, duration_ms=6714, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 13:47:22], mode=BUILD, duration=0:00:02.978, duration_ms=2978, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 13:47:29], mode=BUILD, duration=0:00:06.664, duration_ms=6664, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 13:48:43], mode=BUILD, duration=0:00:02.883, duration_ms=2883, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 13:48:50], mode=BUILD, duration=0:00:06.615, duration_ms=6615, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 14:01:46], mode=WORKBENCH_START, duration=0:00:15.904, duration_ms=15904, data={}
+timestamp=[2022-09-26 14:01:47], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.073, duration_ms=73, data={}
+timestamp=[2022-09-26 14:01:48], mode=WORKBENCH_UI_INIT, duration=0:00:02.305, duration_ms=2305, data={editors_count=22, platform_editors_count=8, projects_count=6, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,tensil_ref_app,tensil_ref_app_system,tensil_yolo_app,tensil_yolo_app_system,zybo_hw_system}
+timestamp=[2022-09-26 14:02:27], mode=BUILD, duration=0:00:04.869, duration_ms=4869, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 14:02:37], mode=BUILD, duration=0:00:09.585, duration_ms=9585, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 14:03:49], mode=BUILD, duration=0:00:03.402, duration_ms=3402, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 14:03:56], mode=BUILD, duration=0:00:07.079, duration_ms=7079, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 14:19:32], mode=BUILD, duration=0:00:02.833, duration_ms=2833, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 14:19:39], mode=BUILD, duration=0:00:06.728, duration_ms=6728, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 16:47:58], mode=WORKBENCH_START, duration=0:00:14.231, duration_ms=14231, data={}
+timestamp=[2022-09-26 16:47:59], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.077, duration_ms=77, data={}
+timestamp=[2022-09-26 16:48:00], mode=WORKBENCH_UI_INIT, duration=0:00:01.504, duration_ms=1504, data={editors_count=22, platform_editors_count=8, projects_count=6, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,tensil_ref_app,tensil_ref_app_system,tensil_yolo_app,tensil_yolo_app_system,zybo_hw_system}
+timestamp=[2022-09-26 17:01:08], mode=BUILD, duration=0:00:02.349, duration_ms=2349, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 17:01:18], mode=BUILD, duration=0:00:09.662, duration_ms=9662, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 17:01:25], mode=BUILD, duration=0:00:03.951, duration_ms=3951, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 17:01:32], mode=BUILD, duration=0:00:06.581, duration_ms=6581, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 17:04:30], mode=BUILD, duration=0:00:02.681, duration_ms=2681, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 17:04:37], mode=BUILD, duration=0:00:06.651, duration_ms=6651, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 17:07:20], mode=BUILD, duration=0:00:02.819, duration_ms=2819, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 17:07:27], mode=BUILD, duration=0:00:06.660, duration_ms=6660, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 17:11:51], mode=BUILD, duration=0:00:02.731, duration_ms=2731, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 17:11:58], mode=BUILD, duration=0:00:06.671, duration_ms=6671, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 17:24:24], mode=BUILD, duration=0:00:02.777, duration_ms=2777, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 17:24:31], mode=BUILD, duration=0:00:06.835, duration_ms=6835, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 17:25:20], mode=BUILD, duration=0:00:02.876, duration_ms=2876, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 17:25:27], mode=BUILD, duration=0:00:06.738, duration_ms=6738, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 17:27:14], mode=BUILD, duration=0:00:02.733, duration_ms=2733, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 17:27:21], mode=BUILD, duration=0:00:06.588, duration_ms=6588, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 17:28:32], mode=BUILD, duration=0:00:03.002, duration_ms=3002, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 17:28:39], mode=BUILD, duration=0:00:06.917, duration_ms=6917, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 17:29:13], mode=BUILD, duration=0:00:03.066, duration_ms=3066, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 17:29:20], mode=BUILD, duration=0:00:06.708, duration_ms=6708, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 17:42:43], mode=BUILD, duration=0:00:02.812, duration_ms=2812, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 17:42:49], mode=BUILD, duration=0:00:06.569, duration_ms=6569, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 17:46:56], mode=BUILD, duration=0:00:02.822, duration_ms=2822, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 17:47:03], mode=BUILD, duration=0:00:06.781, duration_ms=6781, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 17:56:53], mode=BUILD, duration=0:00:02.777, duration_ms=2777, data={name=tensil_yolo_app, configuration=Debug, clean_build=false}
+timestamp=[2022-09-26 17:57:00], mode=BUILD, duration=0:00:06.613, duration_ms=6613, data={name=tensil_yolo_app_system, configuration=Debug, clean_build=false}

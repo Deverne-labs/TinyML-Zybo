@@ -1,0 +1,10 @@
+14:39:23 **** Incremental Build of configuration Debug for project tensil_ref_app_system ****
+make all 
+Generating bif file for the system project
+Executing command '::scw::generate_bif -xpfm /home/lbo/Projects/DVR-006-001/Zybo_yolo_system/software/firmware/zybo_hw_system/export/zybo_hw_system/zybo_hw_system.xpfm -domains standalone_domain -bifpath /home/lbo/Projects/DVR-006-001/Zybo_yolo_system/software/firmware/tensil_ref_app_system/Debug/system.bif' on XSCT
+sdcard_gen --xpfm /home/lbo/Projects/DVR-006-001/Zybo_yolo_system/software/firmware/zybo_hw_system/export/zybo_hw_system/zybo_hw_system.xpfm --sys_config zybo_hw_system --bif /home/lbo/Projects/DVR-006-001/Zybo_yolo_system/software/firmware/tensil_ref_app_system/Debug/system.bif --bitstream /home/lbo/Projects/DVR-006-001/Zybo_yolo_system/software/firmware/tensil_ref_app/_ide/bitstream/system_wrapper.bit --elf /home/lbo/Projects/DVR-006-001/Zybo_yolo_system/software/firmware/tensil_ref_app/Debug/tensil_ref_app.elf,ps7_cortexa9_0
+creating BOOT.BIN using /home/lbo/Projects/DVR-006-001/Zybo_yolo_system/software/firmware/tensil_ref_app/_ide/bitstream/system_wrapper.bit
+Running /tools/Xilinx/Vitis/2020.2/bin/bootgen  -image /home/lbo/Projects/DVR-006-001/Zybo_yolo_system/software/firmware/tensil_ref_app_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+14:39:30 Build Finished (took 6s.571ms)
+

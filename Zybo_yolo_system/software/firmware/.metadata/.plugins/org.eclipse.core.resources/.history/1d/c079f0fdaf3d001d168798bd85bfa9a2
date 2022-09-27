@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="tensil_yolo_app" location="/home/lbo/Projects/DVR-006-001/Zybo_yolo_system/software/firmware/tensil_yolo_app" platform="/home/lbo/Projects/DVR-006-001/Zybo_yolo_system/software/firmware/zybo_hw_system/export/zybo_hw_system/zybo_hw_system.xpfm" platformUID="xilinx:::0.0(custom)" systemProject="tensil_yolo_app_system" sysConfig="zybo_hw_system" runtime="C/C++" cpu="standalone_domain" cpuInstance="ps7_cortexa9_0" os="standalone" language="CPP" mssSignature="7317e8730d390515522d8d00c21fd6f8">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.1318571158">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.958427108" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="empty_application"/>
+</sdkproject:SdkProject>

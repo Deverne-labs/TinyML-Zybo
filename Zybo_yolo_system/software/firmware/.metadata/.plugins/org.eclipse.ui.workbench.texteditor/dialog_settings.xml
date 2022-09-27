@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="TENSIL_FEATURE_OUTPUT_SIZE_1"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="TENSIL_FEATURE_OUTPUT_SIZE_1"/>
+			<item value="outputs_size"/>
+			<item value="conv2d_17_tf"/>
+			<item value="model_output"/>
+			<item value="model_output_bb"/>
+			<item value=".bin"/>
+			<item value="32"/>
+			<item value="conv2d_17_buff_len"/>
+			<item value="CIFAR_CLASSES_SIZE"/>
+			<item value="INPUT_IMAGE_PIXEL_SIZE"/>
+			<item value="CIFAR_PIXELS_SIZE"/>
+			<item value="model_input_buffer"/>
+			<item value="TF_mcu_setup"/>
+			<item value="setup"/>
+			<item value="result"/>
+		</list>
+		<list key="replacehistory">
+			<item value="model_output_bbox"/>
+			<item value="TENSIL_FEATURE_OUTPUT_SIZE_1"/>
+			<item value="TENSIL_FEATURE_INPUT_SIZE"/>
+			<item value="INPUT_IMAGE_PIXEL_SIZE"/>
+			<item value="TF_mcu_setup"/>
+			<item value="yolov4_model"/>
+			<item value="TENSIL_INPUT_BUFFER"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="1064"/>
+		<item key="DIALOG_Y_ORIGIN" value="261"/>
+		<item key="DIALOG_WIDTH" value="348"/>
+		<item key="DIALOG_HEIGHT" value="440"/>
+		<item key="DIALOG_FONT_NAME" value="1|Ubuntu|11.0|0|GTK|1|"/>
+	</section>
+</section>

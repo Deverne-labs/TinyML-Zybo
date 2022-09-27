@@ -1,0 +1,344 @@
+/* SPDX-License-Identifier: Apache-2.0 */
+/* Copyright © 2019-2022 Tensil AI Company */
+
+
+// TFLITE
+#include "yolov4_tiny_192_post_mcu.h"
+
+#include "tensorflow/lite/micro/micro_error_reporter.h"
+#include "tensorflow/lite/micro/micro_interpreter.h"
+#include "tensorflow/lite/micro/micro_mutable_op_resolver.h"
+#include "tensorflow/lite/micro/system_setup.h"
+#include "tensorflow/lite/schema/schema_generated.h"
+
+#include "xtime_l.h"
+
+// Globals, used for compatibility with Arduino-style sketches.
+namespace {
+tflite::ErrorReporter* error_reporter = nullptr;
+const tflite::Model* model = nullptr;
+tflite::MicroInterpreter* interpreter = nullptr;
+TfLiteTensor* model_input = nullptr;
+//FeatureProvider* feature_provider = nullptr;
+//RecognizeCommands* recognizer = nullptr;
+int32_t previous_time = 0;
+
+// Create an area of memory to use for input, output, and intermediate arrays.
+// The size of this will depend on the model you're using, and may need to be
+// determined by experimentation.
+constexpr int kTensorArenaSize = 50000 * 1024;
+uint8_t tensor_arena[kTensorArenaSize];
+//int8_t feature_buffer[kFeatureElementCount];
+
+}  // namespace
+
+#define INPUT_IMAGE_DIM 192
+#define TENSIL_FEATURE_INPUT_SIZE INPUT_IMAGE_DIM*INPUT_IMAGE_DIM
+#define TENSIL_VECTOR_SIZE 256
+#define TENSIL_VECTOR_QTY_1 6*6
+#define TENSIL_VECTOR_QTY_2 12*12
+
+#define TENSIL_FEATURE_OUTPUT_SIZE_1 1*TENSIL_VECTOR_QTY_1*TENSIL_VECTOR_SIZE
+#define TENSIL_FEATURE_OUTPUT_SIZE_2 1*TENSIL_VECTOR_QTY_2*TENSIL_VECTOR_SIZE
+
+#define BBOX_BUFF_OUT 540
+
+#define TENSIL_INPUT_BUFFER TENSIL_PLATFORM_DRAM_BUFFER_HIGH
+
+float* conv2d_17_tf = nullptr;
+float* conv2d_20_tf = nullptr;
+float* model_output_bbox = nullptr;
+
+float  conv2d_17_tensil[TENSIL_FEATURE_OUTPUT_SIZE_1];
+float  conv2d_20_tensil[TENSIL_FEATURE_OUTPUT_SIZE_2];
+
+//END TFLITE
+
+#include <malloc.h>
+#include <stdio.h>
+
+#include "ff.h"
+
+#include "tensil/dram.h"
+#include "tensil/driver.h"
+#include "tensil/instruction.h"
+#include "tensil/model.h"
+#include "tensil/tcu.h"
+
+#include "console.h"
+#include "stopwatch.h"
+
+
+static FATFS fatfs;
+#define MODEL_FILE_PATH "yolov4_tiny_192_onnx_pynqz1.tmodel"
+
+static size_t argmax(size_t size, const float *buffer) {
+    if (!size)
+        return -1;
+
+    float max = buffer[0];
+    size_t max_i = 0;
+
+    for (size_t i = 1; i < size; i++)
+        if (buffer[i] > max) {
+            max = buffer[i];
+            max_i = i;
+        }
+
+    return max_i;
+}
+
+#define CHANNEL_TO_FLOAT(v) ((float)v / 255.0)
+
+static float channel_mean(size_t size, const u8 *buffer) {
+    float sum = 0.0;
+    for (size_t i = 0; i < size; i++)
+        sum += CHANNEL_TO_FLOAT(buffer[i]);
+
+    return sum / (float)size;
+}
+
+
+
+void tf_setup() {
+  tflite::InitializeTarget();
+
+  // Set up logging. Google style is to avoid globals or statics because of
+  // lifetime uncertainty, but since this has a trivial destructor it's okay.
+  // NOLINTNEXTLINE(runtime-global-variables)
+
+  static tflite::MicroErrorReporter micro_error_reporter;
+  error_reporter = &micro_error_reporter;
+
+  // Map the model into a usable data structure. This doesn't involve any
+  // copying or parsing, it's a very lightweight operation.
+  model = tflite::GetModel(yolov4_tiny_192_post_mcu_data);
+  if (model->version() != TFLITE_SCHEMA_VERSION) {
+    TF_LITE_REPORT_ERROR(error_reporter,
+                         "Model provided is schema version %d not equal "
+                         "to supported version %d.",
+                         model->version(), TFLITE_SCHEMA_VERSION);
+    return;
+  }
+
+  // Pull in only the operation implementations we need.
+  // This relies on a complete list of all the ops needed by this graph.
+  // An easier approach is to just use the AllOpsResolver, but this will
+  // incur some penalty in code space for op implementations that are not
+  // needed by this graph.
+  //
+  // tflite::AllOpsResolver resolver;
+  // NOLINTNEXTLINE(runtime-global-variables)
+  static tflite::MicroMutableOpResolver<9> micro_op_resolver(error_reporter);
+
+  if (micro_op_resolver.AddSplitV() != kTfLiteOk) {
+    return;
+  }
+  if (micro_op_resolver.AddExp() != kTfLiteOk) {
+    return;
+  }
+  if (micro_op_resolver.AddLogistic() != kTfLiteOk) {
+    return;
+  }
+  if (micro_op_resolver.AddMul() != kTfLiteOk) {
+    return;
+  }
+  if (micro_op_resolver.AddReshape() != kTfLiteOk) {
+    return;
+  }
+  if (micro_op_resolver.AddStridedSlice() != kTfLiteOk) {
+    return;
+  }
+  if (micro_op_resolver.AddSub() != kTfLiteOk) {
+    return;
+  }
+  if (micro_op_resolver.AddAdd() != kTfLiteOk) {
+    return;
+  }
+  if (micro_op_resolver.AddConcatenation() != kTfLiteOk) {
+    return;
+  }
+
+
+  // Build an interpreter to run the model with.
+  static tflite::MicroInterpreter static_interpreter(
+      model, micro_op_resolver, tensor_arena, kTensorArenaSize, error_reporter);
+  interpreter = &static_interpreter;
+
+  // Allocate memory from the tensor_arena for the model's tensors.
+  TfLiteStatus allocate_status = interpreter->AllocateTensors();
+  if (allocate_status != kTfLiteOk) {
+    TF_LITE_REPORT_ERROR(error_reporter, "AllocateTensors() failed");
+    return;
+  }
+
+  // Get information about the memory area to use for the model's input.
+  model_input = interpreter->input(0);
+  conv2d_17_tf = model_input->data.f;
+
+  model_input = interpreter->input(1);
+  conv2d_20_tf = model_input->data.f;
+
+}
+
+static tensil_error_t tensil_setup(struct tensil_driver *driver,
+        struct tensil_model *model){
+	tensil_error_t error = TENSIL_ERROR_NONE;
+
+	error = tensil_driver_init(driver);
+
+	error = tensil_model_from_file(model,MODEL_FILE_PATH);
+
+	error = tensil_driver_load_model(driver, model);
+
+	return error;
+}
+
+static tensil_error_t tensil_execute(struct tensil_driver *driver,
+                                               const struct tensil_model *model,
+                                               const char *file_name,
+                                               bool print_images) {
+    //FILL INPUT BUFFER OF Tensil DPU
+	FIL fil;
+    FILINFO fno;
+    UINT bytes_read;
+    tensil_error_t error = TENSIL_ERROR_NONE;
+
+    FRESULT res = f_stat(file_name, &fno);
+    if (res)
+        return TENSIL_FS_ERROR(res);
+
+    res = f_open(&fil, file_name, FA_READ);
+
+    if (res)
+        return TENSIL_FS_ERROR(res);
+
+    printf("Reading YOLO test image from %s...\n", file_name);
+
+    res = f_read(&fil, (void *)TENSIL_INPUT_BUFFER, fno.fsize, &bytes_read);
+    f_close(&fil);
+
+    if (res)
+        return TENSIL_FS_ERROR(res);
+
+
+    u8 *ptr = (u8 *)TENSIL_INPUT_BUFFER;
+
+    printf("Start inference ...\n");
+
+	ptr += 1;
+
+	u8 *red = ptr;
+	ptr += TENSIL_FEATURE_INPUT_SIZE;
+
+	u8 *green = ptr;
+	ptr += TENSIL_FEATURE_INPUT_SIZE;
+
+	u8 *blue = ptr;
+	ptr += TENSIL_FEATURE_INPUT_SIZE;
+/*
+	console_clear_screen();
+	for (size_t j = 0; j < TENSIL_FEATURE_INPUT_SIZE; j++) {
+
+
+		console_set_background_color(red[j], green[j], blue[j]);
+
+		if (j % INPUT_IMAGE_DIM == 0)
+			printf("\n");
+
+		if (j%6 == 0)
+			printf("  ");
+	}
+*/
+
+	float red_mean = channel_mean(TENSIL_FEATURE_INPUT_SIZE, red);
+	float green_mean = channel_mean(TENSIL_FEATURE_INPUT_SIZE, green);
+	float blue_mean = channel_mean(TENSIL_FEATURE_INPUT_SIZE, blue);
+	//load image input
+	for (size_t j = 0; j < TENSIL_FEATURE_INPUT_SIZE; j++) {
+		float pixel[] = {CHANNEL_TO_FLOAT(red[j]) ,
+						 CHANNEL_TO_FLOAT(green[j]) ,
+						 CHANNEL_TO_FLOAT(blue[j]) };
+		error = tensil_driver_load_model_input_vector_scalars(
+			driver, model, "x:0", j, 3, pixel);
+	}
+
+
+	XTime start, stop;
+
+	XTime_GetTime(&start);
+	error = tensil_driver_run(driver, NULL);
+	XTime_GetTime(&stop);
+
+	XTime delay = stop - start;
+	float time_delay = ((float)delay / (float)XPAR_PS7_CORTEXA9_0_CPU_CLK_FREQ_HZ)*1000;
+	printf("execution tensil : %f ms ", time_delay);
+
+
+	error = tensil_driver_get_model_output_scalars(
+		driver, model, "model/conv2d_17/BiasAdd:0", TENSIL_FEATURE_OUTPUT_SIZE_1, conv2d_17_tensil);
+	error = tensil_driver_get_model_output_scalars(
+		driver, model, "model/conv2d_20/BiasAdd:0", TENSIL_FEATURE_OUTPUT_SIZE_2, conv2d_20_tensil);
+
+	for(int i = 0; i < TENSIL_VECTOR_QTY_1; i++){
+		for(int j = 0; j < TENSIL_VECTOR_SIZE-1; j++){
+			conv2d_17_tf[j+(i*(TENSIL_VECTOR_SIZE-1))] =  conv2d_17_tensil[j+(i*TENSIL_VECTOR_SIZE)];
+		}
+	}
+
+	for(int i = 0; i < TENSIL_VECTOR_QTY_2; i++){
+		for(int j = 0; j < TENSIL_VECTOR_SIZE-1; j++){
+			conv2d_20_tf[j+(i*(TENSIL_VECTOR_SIZE-1))] =  conv2d_20_tensil[j+(i*TENSIL_VECTOR_SIZE)];
+		}
+	}
+
+    return error;
+}
+
+
+void tf_execute(){
+
+	TfLiteStatus invoke_status = interpreter->Invoke();
+	if (invoke_status != kTfLiteOk) {
+	  TF_LITE_REPORT_ERROR(error_reporter, "Invoke failed");
+	}
+	TfLiteTensor* output_scores = interpreter->output(0);
+	TfLiteTensor* output_bbox = interpreter->output(1);
+	int j = 0;
+	for(int i = 0 ; i < BBOX_BUFF_OUT;i+=4){
+		for(int k = 0; k < 80; k++){
+			if(output_scores->data.f[j+k] > 0.00){
+				printf("class %d : %f\n",k,output_scores->data.f[j+k]);
+				printf("x : %f \n ",output_bbox->data.f[i]);
+				printf("y : %f \n ",output_bbox->data.f[i+1]);
+				printf("w : %f \n ",output_bbox->data.f[i+2]);
+		 	 	printf("h : %f \n\n ",output_bbox->data.f[i+3]);
+			}
+		}
+		j+=80;
+	 }
+
+}
+
+int main() {
+
+
+    FRESULT res;
+    res = f_mount(&fatfs, "0:/", 0);
+	struct tensil_driver driver;
+	struct tensil_model yolov4_model;
+	tensil_error_t error = TENSIL_ERROR_NONE;
+    printf("tensil setup \n");
+    error = tensil_setup(&driver, &yolov4_model);
+    printf("tf setup \n");
+    tf_setup();
+
+    printf("tensil inference \n");
+    error = tensil_execute(&driver, &yolov4_model,"pattern_person.bin", true);
+
+    printf("tf inference \n");
+    tf_execute();
+
+
+    return 0;
+}
