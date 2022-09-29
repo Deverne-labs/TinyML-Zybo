@@ -1,3 +1,5 @@
+<p align="center"><img src="./doc/banner.png"></p>
+
 # TinyML-Zybo
 This repository is a collection of artificial intelligence systems based on FPGA. It has been created for educational purpose. Both industrials &academics are more than welcome to give feedbacks on their learning process, or to contribute. 
 
