@@ -19,3 +19,6 @@ This design is a advanced demonstration of running image recognition on the zybo
 <p align="center"><img src="./doc/example_output_yolo.png"></p>
 
 Gateware & software sources and instructions can be found under the Zybo_yolo_system folder.
+
+Feel free to contact this e-mail adress for any questions : laurent.boutigny@deverne-france.com
+Deverne can provide standard commercial support as well as consulting services 
