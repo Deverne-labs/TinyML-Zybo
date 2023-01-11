@@ -5,6 +5,9 @@ This repository is a collection of artificial intelligence systems based on FPGA
 
 At the moment, example designs are based on zybo-Z7 board with zynq 7020 FPGA only. 
 
+System synoptic is provided below
+
+<p align="center"><img src="./doc/AI_ISP_synoptic.png"></p>
 
 ## Zybo Base System design
 This design is a base demonstration of running an image classifier on the zybo using the ResNet20 model and a FPGA hardware accelerator. An example of the output is given below 
